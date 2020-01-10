@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let anhDich=["red","black","pink","yellow"];
+    let vietDich=["đỏ","đen","hồng","vàng"];
+    let x=prompt("nhap tu can tim");
+    if(anhDich.indexOf(x) !== -1|| vietDich.indexOf(x) !== -1){
+        if (anhDich.indexOf(x)!==-1)
+            alert("nghia la :" +vietDich[anhDich.indexOf(x)]);
+        else
+            alert("nghia la :" + anhDich[vietDich.indexOf(x)]);
+    }else alert("khong co trong tu dien")
+
+
+
+</script>
+
+</body>
+</html>
